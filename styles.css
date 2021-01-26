@@ -1,8 +1,79 @@
 * {
   font-family: "Avenir Next LT Pro", "sans-serif";
   font-size:20px;
+  background-color:rgb(233, 242, 244)
+}
+
+body {
+  margin: 0;
+  /* text-align: center; */
 }
 
 p {
-  color: rgb(212, 128, 50)
+  color: rgb(0, 0, 0);
+  background-color: inherit;
+  /*NOTE SO IMPORTANT
+  span text does not gets text alighed to center unlike paragaprah
+  because the paragaprah takes full width so when it takes
+  textt-align center it centers texts within it accoridngly
+    AND it is a block element
+  But the span is inline and the width is liteally the "text span"
+
+--> To center span correctly either:
+1- use text align on the containr of the span (this is what i did)
+2- ?
+   */
+
 }
+
+h1{
+  text-align: center
+}
+
+
+.new {
+/*
+For multiple classes in a tag; the most recent one prevails
+*/
+
+  background-color:rgb(32, 189, 221);
+
+
+}
+.square{
+  width:100px;
+  background-color:rgb(221, 115, 32);
+  height:100px;
+  text-align: center;
+  overflow: hidden
+
+}
+
+
+.center span {
+  background-color: inherit;
+}
+.center {
+  text-align: center; /* text aligh works on 'text' only lol */
+  margin: 0 auto;
+  background: linear-gradient(rgb(42, 246, 236),rgb(114, 15, 213))
+}
+
+.para {
+padding: 0px 5% ;
+word-break: break-all;
+line-height:1.2em
+/* text-align: center */
+
+
+}
+
+/* text-align: center */
+.para p {
+  text-align: center
+
+
+}
+/* NOTE:
+the // is  not a comment
+ */
