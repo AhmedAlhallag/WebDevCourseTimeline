@@ -77,3 +77,25 @@ line-height:1.2em
 /* NOTE:
 the // is  not a comment
  */
+
+
+/* =============== Working with images =================*/
+/*
+1- center the image (which is considredred sa text) using text-align form the containing div
+2- give the image tag a max-width
+3- give the class on the image tag a fixed with 
+ */
+.image-container {
+text-align:center;
+}
+img {
+/* very IMPORTANT note: the max width is applied to the img tag not the container abovve */
+  max-width:100%;
+  /* text-align: center; */
+
+}
+
+.image{
+  width:500px;
+
+}
